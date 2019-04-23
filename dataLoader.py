@@ -67,6 +67,10 @@ model.add(Dense(13, activation='softmax'))
 model.compile(optimizer="rmsprop", loss='categorical_crossentropy', metrics=['categorical_accuracy'])
 model.fit(X, Y, batch_size=32, epochs=10)
 
+img = image.load_img("/Users/andrey/And/ImageBase/train/Gladiolus/Gladiolus_0001.jpg", target_size=(64, 64, 3))
+img = image.img_to_array(img)
+print(model.predict(img.reshape(1, 64, 64, 3)))
+
 # imageFeature('/Users/andrey/And/ImageBase/train/Gladiolus/Gladiolus_0001.jpg')
 
 
