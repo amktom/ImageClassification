@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="ssh://morozov_a@92.63.74.157:54389/home/morozov_a/anaconda3/bin/python" autoUploadExternalChanges="true">
-    <serverData>
-      <paths name="ssh://morozov_a@92.63.74.157:54389/home/morozov_a/anaconda3/bin/python">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/tmp/pycharm_project_208" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-    </serverData>
+  <component name="PublishConfigData" autoUpload="Always" autoUploadExternalChanges="true">
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
